@@ -1,0 +1,4 @@
+🎯 Definition of Generative AI
+ Generative AI is a branch of artificial intelligence that creates new and 
+original content such as text, images, audio, video and code by learning 
+from existing data
