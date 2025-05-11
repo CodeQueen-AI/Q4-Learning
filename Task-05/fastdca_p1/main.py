@@ -51,14 +51,14 @@ def get_main(num: int, num1:  Annotated[int,Depends(depfunc1)], num2: Annotated[
 
 #5-CLASSES
 blogs = {
-    "1": "Generative AI Blog",
+    "1": "Generative AI",
     "2": "Machine Learning Blog",
     "3": "Deep Learning Blog"
 }
 
 users = {
-    "8": "Ahmed",
-    "9": "Mohammed"
+    "8": Codequeen",
+    "9": "Anusha"
 }
 
 class GetObjectOr404():
