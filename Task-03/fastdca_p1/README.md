@@ -74,5 +74,5 @@ It is used for:
 * **Structured APIs** 🧱
 
 
-*"The journey of a thousand miles begins with a single step. Keep coding, keep growing!"* ✨
+*"The journey of a thousand miles begins with a single step Keep coding, keep growing!"* ✨
 
