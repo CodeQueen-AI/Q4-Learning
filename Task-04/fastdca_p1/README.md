@@ -9,7 +9,7 @@ A beginner-friendly REST API built with FastAPI, demonstrating how to handle pat
 * Optional and required parameters support
 * Interactive API documentation generated automatically
 * Clean and beginner-friendly structure
-* 
+  
 ## 📁 Project Setup
 
 ### 1. Clone and Initialize the Project
