@@ -118,7 +118,21 @@ uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 * **Port in Use**: Use another port or stop the running process.
 * **FastAPI not found**: Ensure it's installed in your local environment.
-* **Module not found**: Check that `.venv` is activated and `uv` dependencies are installed.
+* **Module not found**: Check that `.venv` is activated and `uv` dependencies are installed
+
+
+
+## 👑 Hello World with CodeQueen
+
+You just built your first FastAPI project — lightning fast, modern, and powerful.
+
+This is not just a `"Hello": "World"`…
+It’s a **Hello from CodeQueen**, where learning meets clarity and code becomes confidence.
+
+> 🚀 "Start small, dream big, and build fast – the CodeQueen way!"
+
+Happy coding! 👩‍💻✨
+**#CodeQueen #FastAPI #HelloWorld**
 
 
 
