@@ -73,9 +73,8 @@ Go to: `http://127.0.0.1:8000/docs` to test the API.
 
 ## ✨ Summary (Urdu + English)
 
-**Pydantic** aik library hai jo aap ke data ko validate karti hai.
-Aap ke FastAPI app mein ye ensure karti hai ke user se milne wali har value sahi type ki ho.
-Jaise `int`, `str`, ya `email`. Agar koi problem ho to ye **automatic error** dikhati hai.
+Pydantic is a library that validates your data.
+In your FastAPI app, it ensures that every value received from the user is of the correct type, such as int, str, or email. If there is any issue, it automatically shows an error
 
 It helps in:
 
@@ -83,6 +82,3 @@ It helps in:
 * Clean error messages ❌
 * Structured APIs 🧱
 
----
-
-Would you like me to create practice tasks or a mini-project using Pydantic and FastAPI to help you practice these skills further?
