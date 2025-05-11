@@ -15,13 +15,11 @@ class Metadata(BaseModel):
     timestamp: datetime = Field(default_factory=lambda: datetime.now(tz=UTC))
     session_id: str = Field(default_factory=lambda: str(uuid4()))
 
-
 class Message(BaseModel):
     user_id: str
     text: str
     metadata: Metadata
     tags: list[str] | None = None  # Optional list of tags
-
 
 class Response(BaseModel):
     user_id: str
@@ -51,4 +49,3 @@ async def chat(message: Message):
         reply=reply_text,
         metadata=Metadata()  # Auto-generate timestamp and session_id
     )
-
