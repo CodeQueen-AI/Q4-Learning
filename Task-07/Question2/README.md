@@ -1,37 +1,25 @@
-Of course, Code Queen 👑!
-Here’s a polished and easy-to-understand `README.md` for your project answering:
+# 🤖 Why is the **System Prompt** in the Agent class & Why is the **Agent Callable**?
 
-> 🤖 Why is the **System Prompt** in the Agent class & Why is the **Agent Callable**?
+## 🤖 Agent Design: System Prompt & Callable Objects in Python
 
----
-
-## 📘 `README.md`
-
-````markdown
-# 🤖 Agent Design: System Prompt & Callable Objects in Python
-
-✍️ *By Code Queen 👑*
-
-This project explains two key ideas used in building smart AI agents:
+This project explains two key ideas used in building smart AI agents
 
 1. Why we include a **system prompt** inside the `Agent` class  
 2. Why the `Agent` class is made **callable** like a function
 
----
+
 
 ## 🧠 What Is a System Prompt?
 
-A **system prompt** tells the AI how to behave.  
-It sets the tone, style, and personality of the agent.
+A **system prompt** tells the AI how to behave
+It sets the tone, style, and personality of the agent
 
 For example:
 ```python
 "You are a helpful assistant that only responds in haikus."
 ````
 
-Adding this prompt inside the `Agent` class keeps the behavior **centralized**, **modular**, and **reusable**.
-
----
+Adding this prompt inside the `Agent` class keeps the behavior **centralized**, **modular**, and **reusable**
 
 ## ⚙️ Why Make the Agent Callable?
 
@@ -47,7 +35,7 @@ Instead of:
 response = agent.respond("What's recursion?")
 ```
 
-This is done by defining the special `__call__()` method in your class.
+This is done by defining the special `__call__()` method in your class
 
 ### ✅ Benefits:
 
@@ -55,17 +43,17 @@ This is done by defining the special `__call__()` method in your class.
 * Cleaner, more natural syntax
 * Ideal for chaining tools in AI pipelines
 
----
+
 
 ## 📁 File Structure
 
 ```
 📂 AgentProject/
-├── agent.py      # Defines the Agent class
-└── main.py       # Uses the agent and prints a response
+├── agent.py      
+└── main.py       
 ```
 
----
+
 
 ## 🧪 Example Code
 
@@ -86,7 +74,7 @@ class Agent:
         return self.respond_fn(prompt)
 ```
 
----
+
 
 ### `main.py`
 
@@ -106,16 +94,14 @@ user_input = "What is recursion?"
 print(codequeen_bot(user_input))
 ```
 
----
 
 ## ✅ Output
 
 ```
-[Simulated AI Response to]: You are a helpful assistant that only responds in haikus.
+[Simulated AI Response to]: You are a helpful assistant that only responds in haikus
 User: What is recursion?
 ```
 
----
 
 ## 🌟 Summary
 
@@ -124,15 +110,10 @@ User: What is recursion?
 | System Prompt  | Sets AI personality and behavior. Helps in structured responses. |
 | Callable Agent | Allows intuitive, cleaner syntax: `agent("your question")`       |
 
-This structure is ideal for real-world LLM applications and multi-agent frameworks.
+This structure is ideal for real-world LLM applications and multi-agent frameworks
 
----
+
 
 👑 *Crafted with logic and clarity by Code Queen*
 
-```
 
----
-
-Let me know if you'd like this zipped or want to push it to GitHub! You’re leveling up like a true architect of AI systems! 🚀
-```
