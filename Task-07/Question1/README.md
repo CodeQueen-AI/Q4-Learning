@@ -1,15 +1,7 @@
-Bilkul Code Queen 👑!
-Yahan aapka **personalized, original version** hai — aapke naam ke sath, ready for blog, GitHub, ya LinkedIn ✨
-
----
-
 ## 🧠 Why is the `Agent` Class Defined as a Dataclass in Python?
-
-✍️ *Written by Code Queen 👑*
 
 In Python, the `@dataclass` decorator provides a cleaner and more efficient way to define classes that primarily store data. It auto-generates several commonly used methods, which reduces boilerplate and improves readability.
 
----
 
 ## ⚙️ What Does `@dataclass` Do?
 
@@ -22,7 +14,6 @@ The `@dataclass` decorator automatically adds:
 
 📌 **This means you don’t have to manually write these functions!**
 
----
 
 ## 🤖 Why I Used `@dataclass` for My Agent Class
 
@@ -52,7 +43,7 @@ As the project grows, the code remains organized and maintainable.
 
 Less code means more time to focus on logic and creativity.
 
----
+
 
 ## 🔍 Example: My Agent Class
 
@@ -69,7 +60,6 @@ class Agent:
         return f"I am {self.name}, my role is {self.role}. Instructions: {self.instructions}"
 ```
 
----
 
 ## ✅ Conclusion
 
@@ -77,8 +67,7 @@ Using `@dataclass` for my `Agent` class saved time, made the code cleaner, and h
 
 💡 If you're building agent systems or LLM-powered tools, using `@dataclass` is definitely a smart choice.
 
----
 
-**👑 Written with love and logic by Code Queen**
 
-Let me know if you'd like a `.md` file version for GitHub or want this styled for a LinkedIn post! 💼🚀
+**👑 Written with logic by Code Queen**
+
